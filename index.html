@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Barberia</title>
+  
+  <link rel="stylesheet" href="/css/menu_style.css">
+  <link rel="stylesheet" href="/css/servicios.css">
+  <link rel="stylesheet" href="/css/horario_atencion.css">
+  <link rel="stylesheet" href="css/formulario.css">
+</head>
+
+<body>
+  <main class="main_menu">
+    <img class="main_menu_logo" src="/Img/Logo.jpg" alt="Es el logo de la sobre una barberia">
+    <nav class="main_menu_navegation">
+      <a class="main_menu_navegation_items" href="#">Home</a>
+      <a class="main_menu_navegation_items" href="#">Servicio</a>
+      <a class="main_menu_navegation_items" href="#">Contactos</a>
+    </nav>
+  </main>
+  <section class="content_servicios">
+    <div class="content_servicio">
+      <img class="image_servicio" src="/Img/CabelloBarba.jpg" alt="">
+      <h2 class="title_servicio">Cabello Barba</h2>
+      <p class="description_servicio">$ 50.000 cop
+      </p>
+    </div>
+    <div class="content_servicio">
+      <img class="image_servicio" src="/Img/Barba.jpg" alt="">
+      <h2 class="title_servicio">Barba</h2>
+      <p class="description_servicio">$ 20.000 cop
+      </p>
+    </div>
+    <div class="content_servicio">
+      <img class="image_servicio" src="/Img/CorteCabello.jpg" alt="">
+      <h2 class="title_servicio">Corte de Cabello</h2>
+      <p class="description_servicio">$ 30.000 cop</p>
+    </div>
+  </section>
+  <div>
+    <h2 class="title_horario_atention">Horario de Atencion</h2>
+  </div>
+  <br>
+  <section class="content_table_horario">
+    <table class="table_horario">
+      <thead class="horario_encabezado">
+        <caption class="horario_title_table" colspan="2">Horario de apertura y cierre</caption>
+        <tr>
+          <th class="th_table">Dia</th>
+          <th class="th_table">Apertura</th>
+          <th class="th_table">Cierre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="tr_table_body">
+          <td class="td_table_body">lunes a viernes</td>
+          <td class="td_table_body">8 am</td>
+          <td class="td_table_body">7 pm</td>
+        </tr>
+        <tr>
+          <td class="td_table_body">Sabado</td>
+          <td class="td_table_body">10 am</td>
+          <td class="td_table_body">6 pm</td>
+        </tr>
+        <tr>
+          <td class="td_table_body">Domingo</td>
+          <td class="td_table_body">Cerrado</td>
+          <td class="td_table_body"> --- </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <br>
+  <section class="content_form">
+    <form class="form">
+      <label class="label_form" for="nombre">Nombre</label>
+      <input placeholder="Su nombre aquí" class= "input_form" type="text" name="nombre">
+      <label class="label_form" for="apellido">Apellido</label>
+      <input placeholder="Su apellido aquí" class="input_form" type="text" name="apellido">
+      <label class="label_form" for="email">Correo</label>
+      <input placeholder="Escriba su email aquí" class="input_form" type="email" name="email">
+      <label class="label_form" for="contraseña">Contraseña</label>
+      <input placeholder="Password de 8 digitos" class="input_form" type="password" name="contraseña">
+      <input class="button_form" type="submit" value="Registrar">
+    </form>
+  </section>
+</body>
+</html>

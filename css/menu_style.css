@@ -1,0 +1,48 @@
+.main_menu{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  background-color: greenyellow;
+}
+
+.main_menu_navegation{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 20px;
+  align-items: center;
+}
+
+.main_menu_logo{
+  width: 180px;
+  height: 180px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.main_menu_logo:hover{
+  border-radius: 10px;
+  width: 200;
+  height: 200px;
+  transition: 0.5s;
+  margin-left: 15px;
+}
+
+.main_menu_navegation_items{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 20pt;
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px black solid;
+  text-decoration: none;
+  color: black;
+}
+
+.main_menu_navegation_items:hover{
+  border: 3px black solid;
+  border-radius: 20px;
+  padding: 20px;
+  color: orange;
+  transition: 0.5s;
+  font-size: 25pt;
+}
